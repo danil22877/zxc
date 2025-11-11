@@ -1,0 +1,21 @@
+from random import randint
+A=[randint(10,100)for i in range(10)]
+print('massiv' ,A)
+n=1
+while n<10:
+    for j in range(10-n):
+         if A[j]>A[j+1]:
+            A[j],A[j+1]=A[j+1],A[j]
+    n+=1
+print(*A)
+""
+from random import randint
+A=[randint(10,100)for i in range(10)]
+print('massiv' ,A)
+for i in range(10-1):
+    for j in range(10-2,i-1,-1):
+         if A[j]>A[j+1]:
+            A[j],A[j+1]=A[j+1],A[j]
+         else:
+            break
+print(*A)
