@@ -1,1 +1,35 @@
+settings = ["стимпанк", "киберпанк", "фентези", "научная фантастика"]
+
+objects = ["волшебный меч", "паровой двигатель", "красный бластер",  "кибервизор"]
+n = int(input())
+m = int(input())
+
+if n == 0 and m == 1:
+    print("YES")
+elif n == 1 and m == 3:
+    print("YES")
+elif n == 2 and m == 0:
+    print("YES")
+elif n == 3 and m == 2:
+  print("YES")
+
+
+activation_word = input()
+if activation_word.count("лор") >= 1 and activation_word[-1] == 'р':
+    print("Проход открыт")
+else:
+    print("Недоступно")
+
+
+kody = ["веревка", "нож", "арбалет", "спички", "вода"]
+nick = ["нож", "веревка", "вода", "спальник", "рация"]
+kody = ["веревка", "нож", "арбалет", "спички", "вода"]
+nick = ["нож", "веревка", "вода", "спальник", "рация"]
+set_kody = set(kody)
+set_nick = set(nick)
+print(len(set_kody | set_nick))
+print(len(set_kody & set_nick))
+
+
+
 
