@@ -31,6 +31,32 @@ set_nick = set(nick)
 print(len(set_kody | set_nick))
 print(len(set_kody & set_nick))
 номер 9
+n= int(input())
+t = float(input())
+total_beta_time = n * t * 7
+nick_time = 5
+ratio = total_beta_time / nick_time
+print(ratio)
+
+
+name = input()
+time = input()
+date = input()
+year = input()
+colon_index = time.index(':')
+hours = time [:colon_index]
+minutes = time[colon_index + 1:]
+code = f"{name[0]}.{hours}{minutes}{date}{year}"
+print(code)
+
+
+
+form = ["круглый", "шипастый"]
+clothes = ["кузнечный молот", "корона", "дырявые сандалии", "мантия монарха"]
+color = ["тёмно-фиолетовый", "кроваво-красный", "желтый"]
+positive_king = ["круглый","корона","мантия монарха", "желтый"]
+positive_king.sort()
+print(positive_king)
 
 номер 10
 A = {"волшебный меч", "чешуя дракона", "старые сандалии", "чайный сервиз",}
