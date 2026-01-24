@@ -89,6 +89,22 @@ def removal(N):
   N.remove("горы в далеке")
   print(N)
 removal(L)
+номер 11
+player_attack = int(input())
+planet_defense = int(input())
+if player_attack > planet_defense:
+    print("Планета захвачена!")
+elif player_attack == planet_defense:
+    print("Ничья!")
+else:
+    print("Атака не удалась!")
+
+a = [1, 2, 3, 4, 5]
+for i in range (len(a)):
+     a[i] += i
+ 
+total = sum(a)
+print(total)
 
 
 
