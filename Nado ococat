@@ -1,3 +1,20 @@
+""""""""""""""""""
+урок 21
+номер 6
+class Dragon:
+    def __init__(self, name, power_level):
+        self.name = name
+        self.power_level = power_level
+    
+    def display_info(self):
+        print(f"Имя дракона: {self.name}, Уровень мощности: {self.power_level}")
+
+# Создание экземпляра класса для дракона "Фирафлира" с уровнем мощности 5000
+dragon = Dragon("Фирафлира", 5000)
+dragon.display_info()
+
+
+""""""""""""""
 урок 19
 номер 6 
 """"""""""
