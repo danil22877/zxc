@@ -1,3 +1,14 @@
+def to_millimeters(meters, centimeters):
+    mm_from_meters = meters * 1000
+    mm_from_centimeters = centimeters * 10
+    total_mm = mm_from_meters + mm_from_centimeters 
+    return total_mm
+meters = int (input())
+centimeters = int(input())
+result = to_millimeters(meters, centimeters)
+print(f"{result}")
+
+
 """"""""""""""""""
 урок 21
 номер 6
