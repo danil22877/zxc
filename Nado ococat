@@ -1,3 +1,29 @@
+"""
+class Profit:
+    def __init__(self, income, expenses):
+        self.income = income
+        self.expenses = expenses
+
+    def calculate_revenue(self):
+        return self.income - self.expenses
+
+
+# Ввод данных
+income = float(input())
+expenses = float(input())
+
+# Создание экземпляра класса
+project = Profit(income, expenses)
+
+# Расчёт и вывод чистой выручки
+revenue = project.calculate_revenue()
+print(revenue)
+
+
+
+
+
+"""""""""""""""""""""""""
 <p><i>Я памятник себе воздвиг нерукотворный,</i><br>
 К нему не зарастёт <u>народная тропа,</u><br>
 Вознёсся выше он главою непокорной<br>
