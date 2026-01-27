@@ -1,3 +1,26 @@
+урок 19
+номер 6 
+""""""""""
+class Phone:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+    
+    def display_info(self):
+        print(f"Бренд: {self.brand} Модель: {self.model}")
+
+# Ввод данных от пользователя
+brand_input = input()
+model_input = input()
+
+# Создание экземпляра класса и вывод информации
+phone = Phone(brand_input, model_input)
+phone.display_info()
+
+""""""""""""
+
+
+
 def F_iterative(n):
     result = 1
     for i in range(2, n + 1):
