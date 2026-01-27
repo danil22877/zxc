@@ -1,3 +1,12 @@
+def F(n):
+    if n < 11:
+        return n
+    else:
+        return n + F(n - 1)
+
+n = int(input())
+print(F(n))
+""""
 def to_millimeters(meters, centimeters):
     mm_from_meters = meters * 1000
     mm_from_centimeters = centimeters * 10
