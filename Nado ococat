@@ -1,3 +1,13 @@
+def F_iterative(n):
+    result = 1
+    for i in range(2, n + 1):
+        result = 2 * result + 1
+    return result
+
+print(F_iterative(6))  # Выведет 63
+
+
+
 """
 class Profit:
     def __init__(self, income, expenses):
