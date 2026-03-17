@@ -1,3 +1,15 @@
+n = int(input())
+
+if n == 1 or n == 2 or n == 3:
+    print(1)
+else:
+    p1, p2, p3 = 1, 1, 1  # первые три элемента
+    for i in range(4, n + 1):
+        next_val = p1 + p2  # элементы, отстоящие на 2 и 3 позиции назад
+        p1, p2, p3 = p2, p3, next_val
+    print(p3)
+
+
 roots = []
 
 for x in range(1, 100):  # достаточно большой диапазон
