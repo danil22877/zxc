@@ -1,4 +1,18 @@
-# Считываем два числа с клавиатуры
+modules = ["pygame.display", "pygame.image", "pygame.event", "pygame.sprite"]
+assigments = ["обработка событий", "загрузка изображений", "создание объектов", "создание окна"]
+# Сопоставление индексов modules с индексами assignments
+mapping = [3, 1, 0, 2]
+
+for i, assign_index in enumerate(mapping):
+    print(f"{i} {assign_index}")
+
+
+
+
+
+
+
+Считываем два числа с клавиатуры
 consumed = int(input())  # количество потребляемых калорий
 norm = int(input())      # суточная норма калорий
 
