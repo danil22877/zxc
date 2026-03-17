@@ -1,3 +1,29 @@
+class RGB:
+    def __init__(self, red, green, blue):
+        self.red = red
+        self.green = green
+        self.blue = blue
+
+    def ratio(self):
+        max_val = 255
+        r_ratio = round(self.red / max_val, 2)
+        g_ratio = round(self.green / max_val, 2)
+        b_ratio = round(self.blue / max_val, 2)
+        print(r_ratio)
+        print(g_ratio)
+        print(b_ratio)
+
+
+if __name__ == "__main__":
+    r = int(input())
+    g = int(input())
+    b = int(input())
+
+    color = RGB(r, g, b)
+    color.ratio()
+
+
+
 modules = ["pygame.display", "pygame.image", "pygame.event", "pygame.sprite"]
 assigments = ["обработка событий", "загрузка изображений", "создание объектов", "создание окна"]
 # Сопоставление индексов modules с индексами assignments
